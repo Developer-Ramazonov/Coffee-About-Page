@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container2{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+
+/*         NAVBAR        */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0;
+}
+
+.logo img{
+    width: 236px;
+    height: 26px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #83888F;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    margin-right: 32px;
+    font-weight: 700;
+}
+
+.menu a:hover{
+    color: #333D4B;
+}
+
+
+
+
+/*          ABOUT US HEADER        */
+
+.header-about-us{
+    background: url("../resource/Bitmap.jpg") no-repeat;
+    color: white;
+}
+
+.about-us-texts{
+    padding: 100px 0 137px 85px;
+    width: 445px;
+}
+
+.about-us-texts p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #FEFCF7;
+}
+
+.about-us-texts h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+
+    color: #FEFCF7;
+}
+
+
+
+
+
+/*          SECTION   OUR-COMMITMENT       */
+.our-commit{
+    display: flex;
+    margin-top: 168px;
+    align-items: center;
+}
+.our-commit-texts{
+    width: 540px;
+}
+
+.our-commit-texts > h2{
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+
+    color: #333D4B;
+}
+
+.our-commit-texts > p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: left;
+
+
+    color: #333D4B;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.our-commit::before{
+    content: "";
+    width: 446px;
+    height: 522px;
+    background: url("../resource/our-commit.png") no-repeat;
+    border-radius: 10px;
+    margin-right: 125px;
+
+}
+
+
+
+
+/*        SECTION    UNCOMPROMISING-QUALITY        */
+
+.uncom-quality{
+    display: flex;
+    margin-top: 170px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding: 95px 0 140px 85px;
+    color: white;
+}
+
+.uncom-quality-texts{
+    width: 540px;
+    text-align: left;
+}
+
+.uncom-quality-texts h2{
+    font-size: 40px;
+    line-height: 48px;  
+}
+
+.uncom-quality-texts p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #FEFCF7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.uncom-quality::after{
+    content: "";
+    position: absolute;
+    background:url("../resource/uncom-quality-img.png") no-repeat;
+    border-radius: 15px;
+    width: 435px;
+    height: 477px;
+    top: 35%;
+    right: 140px;
+}
+
+main{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/*         OUR-HEADQUARTERS        */
+
+.our-headquarters{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.our-headquarters-title{
+    display: block;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #83888F;
+}   
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.item> h3{
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+    margin-bottom: 20px;
+    margin-top: 150px;
+
+
+
+    color: #333D4B;
+}
+
+
+.item > ul>li{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    margin-bottom: 10px;
+    
+    
+    color: #333D4B;
+}
+
+.item:nth-child(1):before{
+    position: absolute;
+    width: 43px;
+    height: 50px;
+    content: "";
+    background: url("../resource/uk.png");
+    text-align: center;
+    margin: 50px 0;
+    /* z-index: 1; */
+}
+
+.item ul{
+    list-style: none;
+    width: 150px;
+    padding: 0;
+}
+
+.item:nth-child(2):before{
+    position: absolute;
+    width: 43px;
+    height: 50px;
+    content: "";
+    background: url("../resource/cnd.png");
+    text-align: center;
+    margin: 50px 0;
+    /* z-index: 1; */
+}
+
+.item:nth-child(3):before{
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    content: "";
+    background: url("../resource/aus.png");
+    text-align: center;
+    margin: 50px 0;
+    /* z-index: 1; */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*       FOOTER        */
+
+    .footer{
+        background-color: #2C343E;
+        margin-bottom: 50px;
+    }
+
+    
+    
+.network{
+    list-style: none;
+    display: flex;
+}
+
+.foot-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.foot-menu > li > a{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    
+    color: #83888F;
+    text-decoration: none;
+}
+
+.foot-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-logo > a > img{
+    width: 236px;
+    height: 26px;
+}
+
+.foot-logo{
+    margin: 35px 0;
+}
+
+
+.network > li{
+    margin-left: 24px;
+}
+
+.foot-menu > li{
+    margin-left: 32px;
+}
+
+.foot-menu li a:hover{
+    color: white;
+}
+
+.network li a:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+
+}
+
+.container{
+    max-width: 1160px;
+    margin: auto;
+    padding: 0 30px;
+
+}
+.incorrect, .correct{
+    font-size: 12px;
+}
+.incorrect{
+    color: red;
+}
+.incorrect, .correct{
+    display: none;
+}
+
+.correct{
+    color: green;
+}
+/* Form styles */
+/* .form{
+    width: 60%;
+    margin: auto;
+}
+.form__field{
+    margin: 12px 0;
+}
+
+.name, .surname{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__field > input:valid ~ .correct, 
+.form__field > input:invalid + .incorrect {
+    display: flex;
+}  */
