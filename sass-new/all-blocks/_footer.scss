@@ -1,0 +1,57 @@
+.footer{
+
+    margin-bottom: 135px;
+    background-color: #2C343E;
+
+    &-inside{
+        
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    }
+
+
+    &-logo{
+        margin: 48px 0;
+    }
+    &-logo a img{
+        width: 236px;
+        height: 26px;
+    }
+    &-menu{
+        list-style: none;
+        display: flex;
+    }
+    &-menu li{
+        text-transform: uppercase;  
+        margin-left: 33px;
+    }
+    &-menu li a{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height, or 125% */
+
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        color: #83888F;
+    }
+    &-menu li a:hover{
+        color: white;
+    }
+    &-network{
+        display: flex;
+        list-style: none;
+    }
+    &-network li{
+        margin-left: 24px;
+    }
+    &-network li a:hover{
+        opacity: 0.5;
+    }   
+}

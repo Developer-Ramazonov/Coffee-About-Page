@@ -1,0 +1,45 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    &-logo a img{
+        width: 236px;
+        height: 26px;
+        margin: 50px 0;
+    }
+
+    &-menu li a{
+        text-decoration: none;
+        color: #83888F;
+        font-family: 'Barlow', sans-serif;
+        text-transform: uppercase;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height, or 125% */
+
+        letter-spacing: 0.923077px;
+    }
+
+    &-menu{
+        list-style: none;
+        display: flex;
+
+        & li{
+            margin-left: 32px;
+        }
+
+        & li a:hover{
+            color: #333D4B;
+            cursor: pointer;
+        }
+
+
+    }
+
+}

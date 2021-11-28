@@ -1,0 +1,228 @@
+.how-do-you-drink {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 165px;
+
+    &-type {
+        width: 255px;
+
+        list-style: none;
+
+        &>li {
+            padding: 24px 0;
+            border-bottom: 1px solid #adb0b6;
+
+
+            display: flex;
+
+            &>p,
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-size: 24px;
+                line-height: 32px;
+                /* identical to box height, or 133% */
+                color: #333D4B;
+            }
+
+            &>a {
+                margin-left: 25px;
+                color: #333D4B;
+
+            }
+
+            &>p {
+                color: #83888F;
+
+            }
+
+            &:nth-child(1) {
+                &>p {
+                    color: #0E8784;
+                    opacity: .5;
+                }
+
+                &>a {
+                    opacity: .3;
+                }
+            }
+
+            &:nth-child(2) {
+                &>p {
+                    opacity: .7;
+                }
+
+                &>a {
+                    opacity: .6;
+                }
+            }
+
+            &:nth-child(3) {
+                &>p {
+                    opacity: .5;
+                }
+
+                &>a {
+                    opacity: .3;
+                }
+            }
+
+            &:nth-child(4) {
+                &>p {
+                    opacity: .5;
+                }
+
+                &>a {
+                    opacity: .3;
+                }
+            }
+
+            &:nth-child(5) {
+                &>p {
+                    opacity: .9;
+                }
+            }
+
+
+
+
+        }
+    }
+
+    &-cards {
+        margin-left: 125px;
+        width: 730px;
+        display: flex;
+        flex-direction: column;
+
+        &>.drink-item {
+
+            margin-bottom: 88px;
+
+
+
+
+            &>h4 {
+                font-size: 40px;
+                line-height: 48px;
+                /* identical to box height, or 120% */
+
+                position: relative;
+                color: #83888F;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background: url("./how-do-you-drink-card-icon.png");
+                    background-color: yellow;
+                    right: 0%;
+                }
+            }
+
+            &>.card-block {
+                display: flex;
+                justify-content: space-between;
+
+                &>.card {
+                    margin-top: 56px;
+                    background-color: #F4F1EB;
+                    width: 228px;
+                    padding: 32px 24px 82px;
+                    border-radius: 8px;
+
+                    &>h5 {
+                        font-size: 24px;
+                        line-height: 32px;
+                        /* identical to box height, or 133% */
+
+                        margin-bottom: 24px;
+                        color: #333D4B;
+                    }
+
+                    &>p {
+                        font-family: Barlow;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 26px;
+                        /* or 162% */
+
+
+                        color: #333D4B;
+                    }
+
+
+                    &:hover {
+                        background-color: #FDD6BA;
+                    }
+
+
+                }
+
+                &>.green-card {
+                    background-color: #0E8784;
+
+                    &>h5,
+                    p {
+                        color: white;
+
+                    }
+
+                    &:hover {
+                        background-color: #0E8784;
+                        opacity: 0.8;
+
+                    }
+                }
+            }
+
+
+        }
+
+        &>.order-summary {
+            padding: 31px 40px;
+            background-color: #2C343E;
+            border-radius: 10px;
+            margin-bottom: 50px;
+
+            &>h5 {
+                font-family: Barlow;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                /* identical to box height, or 162% */
+
+                text-transform: uppercase;
+
+                color: #FFFFFF;
+
+                mix-blend-mode: normal;
+                opacity: 0.5;
+
+                margin-bottom: 8px;
+            }
+
+            &>p {
+                font-size: 24px;
+                line-height: 40px;
+                /* or 167% */
+
+
+                color: #FFFFFF;
+
+                & > span{
+                    color: #0E8784;
+                }
+            }
+
+            &-btn{
+                margin-left: auto;
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+.blue-button {
+  background-color: #0E8784;
+  padding: 15px 31px;
+  border: none;
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  border-radius: 6px;
+}
+
+.blue-button:hover {
+  cursor: pointer;
+  background-color: #66D2CF;
+}
+
+.header-enter {
+  background: url("../resource/great-coffee-header.png");
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-enter-texts {
+  color: white;
+  margin: 100px auto 100px 86px;
+}
+
+.header-enter-texts h1 {
+  width: 493px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+
+.header-enter-texts p {
+  width: 445px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+
+main {
+  position: relative;
+}
+
+.section-our-collection {
+  margin-top: 200px;
+  margin-bottom: 500px;
+}
+
+.section-our-collection > h3 {
+  font-size: 150px;
+  /* identical to box height, or 48% */
+  text-align: center;
+  background: -webkit-linear-gradient(#a1a0a0 0%, #e0dddd 50%, #eee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-our-collection-cards {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 5%;
+}
+
+.section-our-collection-cards > .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 255px;
+  margin-left: 30px;
+}
+
+.section-our-collection-cards > .card:nth-child(1) {
+  margin-left: 100px;
+}
+
+.section-our-collection-cards > .card > h4 {
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #333D4B;
+  margin-bottom: 24px;
+  margin-top: 60px;
+}
+
+.section-our-collection-cards > .card > p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #333D4B;
+}
+
+.section-our-collection-cards > .card:nth-child(1)::before {
+  text-align: center;
+  content: "";
+  width: 256px;
+  height: 193px;
+  background: url("../resource/collection-img-4.png") no-repeat;
+}
+
+.section-our-collection-cards > .card:nth-child(2)::before {
+  content: "";
+  width: 256px;
+  height: 193px;
+  background: url("../resource/collection-img-3.png") no-repeat;
+}
+
+.section-our-collection-cards > .card:nth-child(3)::before {
+  content: "";
+  width: 256px;
+  height: 193px;
+  background: url("../resource/collection-img-3.png") no-repeat;
+}
+
+.section-our-collection-cards > .card:nth-child(4)::before {
+  content: "";
+  width: 256px;
+  height: 193px;
+  background: url("../resource/collection-img-4.png") no-repeat;
+}
+
+.section-why-choose-us {
+  background-color: #2C343E;
+  margin-top: 200px;
+  border-radius: 6px;
+  padding-bottom: 300px;
+  margin-bottom: 500px;
+}
+
+.section-why-choose-us-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-why-choose-us-texts h3 {
+  margin-top: 100px;
+  margin-bottom: 32px;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+}
+
+.section-why-choose-us-texts p {
+  width: 540px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.section-why-choose-us-cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 45%;
+}
+
+.section-why-choose-us .card {
+  position: relative;
+  background-color: #0E8784;
+  color: white;
+  padding: 83px 47px 48px;
+  margin: 0 15px;
+  border-radius: 8px;
+}
+
+.section-why-choose-us .card h4 {
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.section-why-choose-us .card p {
+  width: 255px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+}
+
+.section-why-choose-us .card:nth-child(1)::before {
+  position: absolute;
+  content: "";
+  background: url("../resource/wcu-card-1.png");
+  width: 71px;
+  height: 72px;
+  left: 130px;
+}
+
+.section-why-choose-us .card:nth-child(2)::before {
+  position: absolute;
+  content: "";
+  background: url("../resource/wcu-card-2.png");
+  width: 71px;
+  height: 72px;
+  left: 130px;
+}
+
+.section-why-choose-us .card:nth-child(3)::before {
+  position: absolute;
+  content: "";
+  background: url("../resource/wcu-card-3.png") no-repeat;
+  width: 71px;
+  height: 72px;
+  left: 130px;
+}
+
+.section-how-it-works {
+  position: relative;
+}
+
+.section-how-it-works > h3 {
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  margin-bottom: 80px;
+  color: #83888F;
+}
+
+.section-how-it-works > .lines {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-how-it-works > .lines > .line {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 1px solid #FDD6BA;
+  position: relative;
+  display: block;
+}
+
+.section-how-it-works > .lines > .line::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 249px;
+  height: 2px;
+  display: block;
+  background-color: #7c2424;
+}
+
+.section-how-it-works > .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 67px;
+  margin-bottom: 64px;
+}
+
+.section-how-it-works > .cards > .card {
+  width: 285px;
+  text-align: left;
+  margin-right: 95px;
+}
+
+.section-how-it-works > .cards > .card > h4 {
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.section-how-it-works > .cards > .card > h3 {
+  width: 200px;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  margin-bottom: 42px;
+  color: #333D4B;
+}
+
+.section-how-it-works > .cards > .card > p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+}
+
+.footer {
+  margin-top: 200px;
+}
+/*# sourceMappingURL=home-page.css.map */

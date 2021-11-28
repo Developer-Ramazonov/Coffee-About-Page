@@ -1,0 +1,105 @@
+main{
+    position: relative;
+
+}
+
+.section-line-3-circle{
+    margin-top: 200px;
+    background-color: #2C343E;
+    padding: 150px;
+
+    
+
+   
+
+
+        & > .bigline{
+            &>.line {
+                text-align: start;
+                border: #FDD6BA solid 1px;
+                width: 760px;
+                display: flex;
+
+                & > .circle{
+                    background-color: #2C343E;
+
+                    &:nth-child(1){
+                        position: absolute;
+                        width: 31px;
+                        height: 31px;
+                        border: solid 1px #0E8784;
+                        border-radius: 50%;
+                        top: 137.5%;
+                        left: 13%;
+                    }
+                    &:nth-child(2){
+                        position: absolute;
+                        width: 31px;
+                        height: 31px;
+                        border: solid 1px #0E8784;
+                        border-radius: 50%;
+                        top: 137.5%;
+                        left: 70%;
+                    }
+                    &:nth-child(3){
+                        position: absolute;
+                        width: 31px;
+                        height: 31px;
+                        border: solid 1px #0E8784;
+                        border-radius: 50%;
+                        top: 137.5%;
+                        left: 43%;
+                    }
+                }
+    
+            }
+        }
+
+        &>.cards {
+            display: flex;
+            margin-top: 67px;
+            margin-bottom: 64px;
+            padding-top: 67px;
+
+            &>.card {
+                width: 285px;
+                text-align: left;
+                margin-right: 95px;
+
+                &>h4 {
+                    font-size: 72px;
+                    line-height: 72px;
+                    /* identical to box height, or 100% */
+
+                    color: #FDD6BA;
+                    margin-bottom: 38px;
+                }
+
+                &>h3 {
+
+                    width: 200px;
+                    font-size: 32px;
+                    line-height: 36px;
+                    /* or 112% */
+                    margin-bottom: 42px;
+
+                    color: #FEFCF7;
+                }
+
+                &>p {
+                    font-family: Barlow;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    /* or 162% */
+
+
+                    color: #FEFCF7;
+                }
+
+            }
+        }
+
+    
+}

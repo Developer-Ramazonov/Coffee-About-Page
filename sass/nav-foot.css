@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-logo a img {
+  width: 236px;
+  height: 26px;
+  margin: 50px 0;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #83888F;
+  font-family: 'Barlow', sans-serif;
+  text-transform: uppercase;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-left: 32px;
+}
+
+.navbar-menu li a:hover {
+  color: #333D4B;
+  cursor: pointer;
+}
+
+.footer {
+  margin-bottom: 135px;
+  background-color: #2C343E;
+}
+
+.footer-inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-logo {
+  margin: 48px 0;
+}
+
+.footer-logo a img {
+  width: 236px;
+  height: 26px;
+}
+
+.footer-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-menu li {
+  text-transform: uppercase;
+  margin-left: 33px;
+}
+
+.footer-menu li a {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #83888F;
+}
+
+.footer-menu li a:hover {
+  color: white;
+}
+
+.footer-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footer-network li {
+  margin-left: 24px;
+}
+
+.footer-network li a:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=nav-foot.css.map */
